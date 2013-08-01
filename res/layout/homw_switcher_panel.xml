@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="wrap_content"
+	android:paddingBottom="5dp" android:paddingTop="5dp" android:paddingRight="4dp">
+	<ImageView android:src="@drawable/icon" android:id="@+id/imageView_icon1"
+		android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+		android:layout_height="45dp" android:layout_width="45dp"></ImageView>
+	<TextView android:textColor="@color/white" android:textSize="17dp"
+		android:id="@+id/textView_filename1" android:text="TextView"
+		android:textStyle="bold" android:layout_height="wrap_content"
+		android:lines="1" android:layout_toRightOf="@+id/imageView_icon1"
+		android:layout_alignTop="@+id/imageView_icon1" android:layout_width="fill_parent"></TextView>
+	<TextView android:id="@+id/textView_pkgname" android:text="TextView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/textView_filename1"
+		android:layout_alignLeft="@+id/textView_filename1"></TextView>
+	<Button android:layout_alignParentRight="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/launch" android:id="@+id/button_launch"></Button>
+</RelativeLayout>

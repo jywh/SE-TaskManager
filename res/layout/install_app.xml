@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="wrap_content"
+	android:paddingBottom="7dp" android:paddingTop="7dp">
+	<ImageView android:src="@drawable/icon" android:id="@+id/imageView_icon"
+		android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+		android:layout_height="45dp" android:layout_width="45dp"></ImageView>
+	<TextView android:textColor="@color/white" android:textSize="17dp"
+		android:id="@+id/textView_filename" android:text="TextView"
+		android:textStyle="bold"
+		android:layout_height="wrap_content" android:lines="1"
+		android:layout_toRightOf="@+id/imageView_icon"
+		android:layout_alignTop="@+id/imageView_icon"
+		android:layout_width="fill_parent"></TextView>
+	<TextView android:id="@+id/textView_size" android:text="TextView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/textView_filename"
+		android:layout_alignLeft="@+id/textView_filename"></TextView>
+	<TextView android:id="@+id/textView_version" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/textView_size" android:layout_alignTop="@+id/textView_size"
+		android:layout_alignBottom="@+id/textView_size"
+		android:layout_marginLeft="20dp" android:lines="1"></TextView>
+</RelativeLayout>

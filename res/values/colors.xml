@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="white">#ffffff</color>
+<color name="dark">#2E2E2E</color>
+<color name="greenStart">#33dd44</color>
+<color name="greenMid">#0A8815</color>
+<color name="greenEnd">#1da130</color>
+<color name="yellowStart">#FFCC11</color>
+<color name="yellowMid">#EEAD0E</color>
+<color name="yellowEnd">#FFC125</color>
+<color name="redStart">#FF0000</color>
+<color name="redMid">#CD0000</color>
+<color name="redEnd">#EE0000</color>
+<color name="offwhite">#DDDDDD</color>
+<color name="black">#000000</color>
+<color name="blue">#00C5CD</color>
+</resources>

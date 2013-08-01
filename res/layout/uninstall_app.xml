@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="3dp">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup" android:id="@+id/button_backup" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_gravity="center"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall" android:layout_gravity="center" android:id="@+id/button_uninstall"></Button>
+        <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:text="@string/all" android:textSize="20dp" android:layout_gravity="center" android:gravity="right" android:textColor="@color/white"></TextView>
+        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right|center" android:layout_marginRight="7dp" android:id="@+id/checkBox_all"></CheckBox>
+    </LinearLayout>
+    <ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/android:list"></ListView>
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/progressBar_uninstall" android:layout_marginTop="10dp"></ProgressBar>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/textView_uninstall" android:text="@string/loading" android:layout_marginTop="3dp"></TextView>
+</LinearLayout>
